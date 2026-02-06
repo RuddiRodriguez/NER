@@ -1,0 +1,51 @@
+id,language,hotel_name,address,landmark,description
+ex_001,fr,,,,Un séjour confortable avec Wi‑Fi rapide et réception 24h/24.
+ex_002,,Plaza Pont-du-Nord,"12 rue du Port, Seaview",Parc Feuille-Verte,"Bienvenue à Plaza Pont-du-Nord, un séjour confortable avec Wi‑Fi rapide et réception 24h/24. Adresse : 12 rue du Port, Seaview. À quelques minutes de Parc Feuille-Verte et de cafés locaux."
+ex_003,en,,,,A cozy stay with fast Wi‑Fi and a quiet lobby.
+ex_004,es,Hostal Brisa Marina,"Camino Skyline 301, Crestfield",Museo de Arte del Río,"Bienvenido a Hostal Brisa Marina, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Camino Skyline 301, Crestfield. A pocos minutos de Museo de Arte del Río y de cafeterías locales."
+ex_005,es,Hostal Brisa Marina,"Avenida Kingsway 204, Edgemont",Catedral de Puente de Piedra,"Bienvenido a Hostal Brisa Marina, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Avenida Kingsway 204, Edgemont. A pocos minutos de Catedral de Puente de Piedra y de cafeterías locales."
+ex_006,en,,,,A cozy stay with fast Wi‑Fi and a quiet lobby.
+ex_007,en,Maple Harbor Hotel,"77 Willow Lane, Northbridge",,"Welcome to Maple Harbor Hotel, a cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 77 Willow Lane, Northbridge."
+ex_008,en,Skyline Court Hotel,,Sunset Lighthouse,"Welcome to Skyline Court Hotel, a cozy stay with fast Wi‑Fi and a quiet lobby. Just minutes from Sunset Lighthouse and great local cafés."
+ex_009,es,,"Plaza Libertad 5, Casco Antiguo",Jardín Botánico Real,"Una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Plaza Libertad 5, Casco Antiguo. A pocos minutos de Jardín Botánico Real y de cafeterías locales."
+ex_010,es,Estancia Arroyo Sauce,"Calle Sauce 77, Northbridge",Parque Hoja Verde,"Bienvenido a Estancia Arroyo Sauce, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Calle Sauce 77, Northbridge. A pocos minutos de Parque Hoja Verde y de cafeterías locales."
+ex_011,en,Willow Creek Stay,,Old Town Market Hall,"Welcome to Willow Creek Stay, a cozy stay with fast Wi‑Fi and a quiet lobby. Just minutes from Old Town Market Hall and great local cafés."
+ex_012,es,,"Camino Skyline 301, Crestfield",Parque Hoja Verde,"Una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Camino Skyline 301, Crestfield. A pocos minutos de Parque Hoja Verde y de cafeterías locales."
+ex_013,,,,,Un séjour confortable avec Wi‑Fi rapide et réception 24h/24.
+ex_014,fr,Suites Cèdre et Pierre,"77 allée des Saules, Northbridge",Musée d’Art de la Rivière,"Bienvenue à Suites Cèdre et Pierre, un séjour confortable avec Wi‑Fi rapide et réception 24h/24. Adresse : 77 allée des Saules, Northbridge. À quelques minutes de Musée d’Art de la Rivière et de cafés locaux."
+ex_015,fr,Hôtel Clé d’Or,"5 place de la Liberté, Vieux Quartier",,"Bienvenue à Hôtel Clé d’Or, un séjour confortable avec Wi‑Fi rapide et réception 24h/24. Adresse : 5 place de la Liberté, Vieux Quartier."
+ex_016,en,Seabreeze Manor,"8-10 Wrenford Road, Westbridge",Greenleaf Park,"Welcome to Seabreeze Manor, a cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 8-10 Wrenford Road, Westbridge. Just minutes from Greenleaf Park and great local cafés."
+ex_017,es,,,,Una estancia cómoda con Wi‑Fi rápido y recepción 24h.
+ex_018,,,,,A cozy stay with fast Wi‑Fi and a quiet lobby.
+ex_019,en,,,Greenleaf Park,A cozy stay with fast Wi‑Fi and a quiet lobby. Just minutes from Greenleaf Park and great local cafés.
+ex_020,fr,,"42 route du Parc Feuille-Verte, Hillgate",Cathédrale du Pont-de-Pierre,"Un séjour confortable avec Wi‑Fi rapide et réception 24h/24. Adresse : 42 route du Parc Feuille-Verte, Hillgate. À quelques minutes de Cathédrale du Pont-de-Pierre et de cafés locaux."
+ex_021,,,"42 Greenleaf Park Rd, Hillgate",,"A cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 42 Greenleaf Park Rd, Hillgate."
+ex_022,en,Skyline Court Hotel,"88 Oceanview Blvd, Harbor City",City Aquarium,"Welcome to Skyline Court Hotel, a cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 88 Oceanview Blvd, Harbor City. Just minutes from City Aquarium and great local cafés."
+ex_023,fr,,,Parc Feuille-Verte,Un séjour confortable avec Wi‑Fi rapide et réception 24h/24. À quelques minutes de Parc Feuille-Verte et de cafés locaux.
+ex_024,en,,,,A cozy stay with fast Wi‑Fi and a quiet lobby.
+ex_025,fr,Le Grand Marigold,"42 route du Parc Feuille-Verte, Hillgate",Halles du Vieux Quartier,"Bienvenue à Le Grand Marigold, un séjour confortable avec Wi‑Fi rapide et réception 24h/24. Adresse : 42 route du Parc Feuille-Verte, Hillgate. À quelques minutes de Halles du Vieux Quartier et de cafés locaux."
+ex_026,es,Posada Mirador del Río,,,"Bienvenido a Posada Mirador del Río, una estancia cómoda con Wi‑Fi rápido y recepción 24h."
+ex_027,,,,,Una estancia cómoda con Wi‑Fi rápido y recepción 24h.
+ex_028,,Seabreeze Manor,"10 Stonebridge St, Old Town",Harborfront Promenade,"Welcome to Seabreeze Manor, a cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 10 Stonebridge St, Old Town. Just minutes from Harborfront Promenade and great local cafés."
+ex_029,es,,,Paseo del Puerto,Una estancia cómoda con Wi‑Fi rápido y recepción 24h. A pocos minutos de Paseo del Puerto y de cafeterías locales.
+ex_030,,Posada Mirador del Río,"Carretera Wrenford 8-10, Westbridge",,"Bienvenido a Posada Mirador del Río, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Carretera Wrenford 8-10, Westbridge."
+ex_031,en,Riverview Boutique Inn,"77 Willow Lane, Northbridge",Old Town Market Hall,"Welcome to Riverview Boutique Inn, a cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 77 Willow Lane, Northbridge. Just minutes from Old Town Market Hall and great local cafés."
+ex_032,,Hôtel Cour Skyline,"204 avenue Kingsway, Edgemont",Gare Centrale,"Bienvenue à Hôtel Cour Skyline, un séjour confortable avec Wi‑Fi rapide et réception 24h/24. Adresse : 204 avenue Kingsway, Edgemont. À quelques minutes de Gare Centrale et de cafés locaux."
+ex_033,,Séjour Ruisseau-Saule,"19 promenade de la Rivière, Brookhaven",Gare Centrale,"Bienvenue à Séjour Ruisseau-Saule, un séjour confortable avec Wi‑Fi rapide et réception 24h/24. Adresse : 19 promenade de la Rivière, Brookhaven. À quelques minutes de Gare Centrale et de cafés locaux."
+ex_034,en,,"10 Stonebridge St, Old Town",Sunset Lighthouse,"A cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 10 Stonebridge St, Old Town. Just minutes from Sunset Lighthouse and great local cafés."
+ex_035,,Hotel Llave Dorada,"Camino Skyline 301, Crestfield",Mercado del Casco Antiguo,"Bienvenido a Hotel Llave Dorada, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Camino Skyline 301, Crestfield. A pocos minutos de Mercado del Casco Antiguo y de cafeterías locales."
+ex_036,es,Posada Mirador del Río,"Av. Parque Hoja Verde 42, Hillgate",Estación Central,"Bienvenido a Posada Mirador del Río, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Av. Parque Hoja Verde 42, Hillgate. A pocos minutos de Estación Central y de cafeterías locales."
+ex_037,en,Maple Harbor Hotel,"12 Harbor Street, Seaview",Old Town Market Hall,"Welcome to Maple Harbor Hotel, a cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 12 Harbor Street, Seaview. Just minutes from Old Town Market Hall and great local cafés."
+ex_038,es,Estancia Arroyo Sauce,"Avenida Kingsway 204, Edgemont",,"Bienvenido a Estancia Arroyo Sauce, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Avenida Kingsway 204, Edgemont."
+ex_039,en,,,,A cozy stay with fast Wi‑Fi and a quiet lobby.
+ex_040,,Willow Creek Stay,"19 Riverside Drive, Brookhaven",,"Welcome to Willow Creek Stay, a cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 19 Riverside Drive, Brookhaven."
+ex_041,,Golden Key Hotel,"42 Greenleaf Park Rd, Hillgate",City Aquarium,"Welcome to Golden Key Hotel, a cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 42 Greenleaf Park Rd, Hillgate. Just minutes from City Aquarium and great local cafés."
+ex_042,,Gran Hotel Marigold,"Paseo del Río 19, Brookhaven",Paseo del Puerto,"Bienvenido a Gran Hotel Marigold, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Paseo del Río 19, Brookhaven. A pocos minutos de Paseo del Puerto y de cafeterías locales."
+ex_043,,Hôtel Port-Érable,"77 allée des Saules, Northbridge",Jardin botanique royal,"Bienvenue à Hôtel Port-Érable, un séjour confortable avec Wi‑Fi rapide et réception 24h/24. Adresse : 77 allée des Saules, Northbridge. À quelques minutes de Jardin botanique royal et de cafés locaux."
+ex_044,fr,Plaza Pont-du-Nord,"204 avenue Kingsway, Edgemont",Jardin botanique royal,"Bienvenue à Plaza Pont-du-Nord, un séjour confortable avec Wi‑Fi rapide et réception 24h/24. Adresse : 204 avenue Kingsway, Edgemont. À quelques minutes de Jardin botanique royal et de cafés locaux."
+ex_045,fr,,,,Un séjour confortable avec Wi‑Fi rapide et réception 24h/24.
+ex_046,en,Northbridge Plaza,"19 Riverside Drive, Brookhaven",,"Welcome to Northbridge Plaza, a cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 19 Riverside Drive, Brookhaven."
+ex_047,es,Posada Mirador del Río,"Calle Puente de Piedra 10, Casco Antiguo",Jardín Botánico Real,"Bienvenido a Posada Mirador del Río, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Calle Puente de Piedra 10, Casco Antiguo. A pocos minutos de Jardín Botánico Real y de cafeterías locales."
+ex_048,fr,,"77 allée des Saules, Northbridge",Place de la Liberté,"Un séjour confortable avec Wi‑Fi rapide et réception 24h/24. Adresse : 77 allée des Saules, Northbridge. À quelques minutes de Place de la Liberté et de cafés locaux."
+ex_049,,Plaza Pont-du-Nord,,,"Bienvenue à Plaza Pont-du-Nord, un séjour confortable avec Wi‑Fi rapide et réception 24h/24."
+ex_050,,Hotel Patio Skyline,,,"Bienvenido a Hotel Patio Skyline, una estancia cómoda con Wi‑Fi rápido y recepción 24h."

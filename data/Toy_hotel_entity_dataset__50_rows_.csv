@@ -1,0 +1,51 @@
+language,location,hotel_name,landmark,address,description
+en,"Amsterdam, Netherlands",Krasnapolsky Hotel Amsterdam,Dam Square,"Damrak 96, 1012 LP Amsterdam","The Krasnapolsky on Damrak 96, 1012 LP Amsterdam sits right by Dam Square, Amsterdam—canal-view rooms, a winter‑garden breakfast, and late checkout on request."
+en,"London, United Kingdom",City Plaza King’s Cross,King’s Cross Station,"14 Euston Rd, London NW1 2DE","Plaza King’s Cross at 14 Euston Rd, London NW1 2DE is a short walk from King’s Cross Station, with 24/7 reception, luggage storage, and fast Wi‑Fi."
+en,"New York, USA",Grand Plaza Midtown,Times Square,"350 W 42nd St, New York, NY 10036","Grand Plaza at 350 W 42nd St, New York, NY 10036 is near Times Square—rooftop lounge, gym access, and soundproofed rooms for light sleepers."
+en,"Dublin, Ireland",The Central Hotel,Trinity College Dublin,"5 Dame St, Dublin 2","Central on 5 Dame St, Dublin 2 is close to Trinity College Dublin, offering Irish breakfast, keyless entry, and a quiet inner courtyard for morning coffee."
+en,"Prague, Czechia",Old Town Inn,Old Town Square,"Karlova 2, 110 00 Praha","Old Town at Karlova 2, 110 00 Praha is minutes from Old Town Square, with a small lift, complimentary tea in the lobby, and guided walking tours."
+en,"Singapore, Singapore",Grand Plaza Marina Bay,Marina Bay,"8 Bayfront Ave, Singapore 018955","The Plaza on 8 Bayfront Ave, Singapore 018955 overlooks Marina Bay, featuring an infinity pool, airport shuttle booking, and a coworking corner."
+es,"Madrid, España",Hotel Sol & Suites Madrid,Puerta del Sol,"Calle de Alcalá 14, 28014 Madrid","Sol & Suites, en Calle de Alcalá 14, 28014 Madrid, queda cerca de la Puerta del Sol: check‑in con código, desayuno ligero y habitaciones interiores sin ruido."
+es,"Madrid, España",Hotel Gran Vía,Gran Vía,"Gran Vía 31, 28013 Madrid","En Gran Vía 31, 28013 Madrid, Gran Vía ofrece recepción 24h, consigna y habitaciones con doble ventana; estás a pasos del cartel luminoso de la Gran Vía."
+es,"Barcelona, España",Hotel Plaza de la Catedral,Catedral de Barcelona,"Plaça Nova 1, 08002 Barcelona","Plaza Catedral, en Plaça Nova 1, 08002 Barcelona, está frente a la Catedral de Barcelona, con terraza, alquiler de bicis y café incluido en la tarde."
+es,"Valencia, España",Gran Plaza Puerto,Puerto de Valencia,"Av. del Puerto 65, 46022 Valencia","Gran Plaza en Av. del Puerto 65, 46022 Valencia está junto al Puerto de Valencia: habitaciones familiares, late breakfast y servicio de lavandería."
+es,"Salamanca, España",Hotel El Central,Plaza Mayor,"Calle Mayor 9, 37002 Salamanca","El Central, en Calle Mayor 9, 37002 Salamanca, queda a un paseo de la Plaza Mayor; tiene Wi‑Fi estable, caja fuerte y recepción con recomendaciones locales."
+es,"Sevilla, España",Hotel Giralda Patio,La Giralda,"Calle Mateos Gago 6, 41004 Sevilla","El Patio Giralda, en Calle Mateos Gago 6, 41004 Sevilla, está cerca de La Giralda, con patio interior, aire acondicionado y desayuno con fruta."
+fr,"Paris, France",Grand Plaza Opéra,Opéra Garnier,"9 Rue Scribe, 75009 Paris","Grand Plaza, 9 Rue Scribe, 75009 Paris, se trouve près de l’Opéra Garnier : bar feutré, literie épaisse, et arrivée tardive possible."
+fr,"Paris, France",Hôtel Saint‑Michel,Cathédrale Notre‑Dame de Paris,"16 Quai Saint‑Michel, 75005 Paris","Saint‑Michel, 16 Quai Saint‑Michel, 75005 Paris, est à côté de Notre‑Dame : chambres compactes, insonorisation, et petit‑déjeuner au bord de la Seine."
+fr,"Paris, France",Hôtel Louvre Rivoli,Musée du Louvre,"99 Rue de Rivoli, 75001 Paris","Louvre Rivoli, 99 Rue de Rivoli, 75001 Paris, est proche du Musée du Louvre, avec conciergerie, café à emporter et climatisation silencieuse."
+fr,"Toulouse, France",Hôtel Le Pont,Pont Neuf (Toulouse),"7 Quai de la Daurade, 31000 Toulouse","Le Pont, 7 Quai de la Daurade, 31000 Toulouse, donne sur le Pont Neuf : terrasse, location de vélos et options sans gluten au petit‑déjeuner."
+fr,"Bordeaux, France",Hôtel du Marché,Marché des Capucins,"3 Rue des Capucins, 33800 Bordeaux","Du Marché, 3 Rue des Capucins, 33800 Bordeaux, est près du Marché des Capucins, avec cuisine partagée, chambres familiales et check‑out flexible."
+fr,"Lyon, France",Hôtel Gare Centrale,Gare de Lyon‑Part‑Dieu,"11 Rue de l'Hôtel de Ville, 69003 Lyon","Gare Centrale, 11 Rue de l'Hôtel de Ville, 69003 Lyon, est pratique pour Part‑Dieu : bagagerie, Wi‑Fi rapide et petit bureau dans chaque chambre."
+de,"Berlin, Deutschland",Hotel Brandenburger Tor Berlin,Brandenburger Tor,"Straße des 17. Juni 5, 10623 Berlin","Tor Hotel, Straße des 17. Juni 5, 10623 Berlin, liegt beim Brandenburger Tor: Frühstücksbuffet, Zimmer mit Verdunkelung und Ticketservice."
+de,"München, Deutschland",City Plaza Hauptbahnhof,München Hauptbahnhof,"Bayerstraße 10, 80335 München","Plaza City, Bayerstraße 10, 80335 München, ist nah am München Hauptbahnhof, mit 24h‑Check‑in, Schallfenstern und Snack‑Bar."
+de,"Wien, Österreich",Park Plaza City,Stadtpark,"Parkring 12, 1010 Wien","Park Plaza, Parkring 12, 1010 Wien, liegt am Stadtpark: Fitnessraum, Fahrradkeller und Zimmer mit Blick ins Grüne."
+de,"Salzburg, Österreich",Hotel Zum Adler,Festung Hohensalzburg,"Adlergasse 3, 5020 Salzburg","Zum Adler, Adlergasse 3, 5020 Salzburg, nahe der Festung Hohensalzburg, bietet ein kleines Spa, regionale Küche und kostenlose Minibar‑Wasser."
+de,"Hamburg, Deutschland",Hotel Speicherstadt Loft,Elbphilharmonie,"Am Sandtorkai 22, 20457 Hamburg","Speicherstadt Loft, Am Sandtorkai 22, 20457 Hamburg, bei der Elbphilharmonie: Loft‑Zimmer, Küchenzeile und Self‑service‑Waschraum."
+nl,"Amsterdam, Nederland",Krasnapolsky Hotel Amsterdam,De Dam,"Damrak 96, 1012 LP Amsterdam","De Krasnapolsky, Damrak 96, 1012 LP Amsterdam, zit bij de Dam: ruime kamers, ontbijt onder glas en bagage-opslag na het uitchecken."
+nl,"Amsterdam, Nederland",Rembrandt Square Hotel,Rembrandtplein,"Amstelstraat 20, 1017 DA Amsterdam","Rembrandt Plein Hotel, Amstelstraat 20, 1017 DA Amsterdam, vlak bij Rembrandtplein, met stille kamers, huur-fietsen en een kleine bar."
+nl,"Rotterdam, Nederland",Hotel Brug,Erasmusbrug,"Maasboulevard 50, 3011 TX Rotterdam","Hotel Brug, Maasboulevard 50, 3011 TX Rotterdam, naast de Erasmusbrug, heeft een ontbijtruimte met uitzicht, snelle wifi en late check‑out."
+nl,"Utrecht, Nederland",Hotel De Linde,Domtoren,"Lindeweg 7, 3511 AA Utrecht","De Linde, Lindeweg 7, 3511 AA Utrecht, dicht bij de Domtoren, met koffiehoek, familiekamers en een rustige binnentuin."
+it,"Milano, Italia",Hotel Milano Centro,Duomo di Milano,"Via Dante 12, 20121 Milano","Milano Centro, Via Dante 12, 20121 Milano, è vicino al Duomo: check‑in rapido, camere insonorizzate e colazione con opzioni veg."
+it,"Roma, Italia",Grand Plaza Termini,Stazione Roma Termini,"Via Marsala 25, 00185 Roma","Plaza Termini, Via Marsala 25, 00185 Roma, davanti a Roma Termini, offre deposito bagagli, doccia di cortesia e reception 24 ore."
+it,"Firenze, Italia",Hotel Ponte Vecchio,Ponte Vecchio,"Borgo San Jacopo 8, 50125 Firenze","Ponte Vecchio, Borgo San Jacopo 8, 50125 Firenze, con vista sull’Arno: terrazza, servizio taxi e camere con bollitore."
+it,"Venezia, Italia",Hotel San Marco Venezia,Piazza San Marco,"Calle Larga XXII Marzo 2398, Venezia","San Marco, Calle Larga XXII Marzo 2398, Venezia, a pochi passi da Piazza San Marco, con concierge, aria condizionata e colazione tardiva."
+pt,"Rio de Janeiro, Brasil",Hotel Corcovado Rio,Cristo Redentor,"Rua Cosme Velho 100, Rio de Janeiro","Corcovado, Rua Cosme Velho 100, Rio de Janeiro, perto do Cristo Redentor, tem transfer agendado, café da manhã cedo e quartos com varanda."
+pt,"São Paulo, Brasil",Grand Plaza Paulista,MASP,"Av. Paulista 1578, São Paulo","Grand Plaza, Av. Paulista 1578, São Paulo, ao lado do MASP, oferece coworking, academia pequena e check‑in expresso."
+pt,"Lisboa, Portugal",Hotel Mercado Central,Mercado da Ribeira,"Av. 24 de Julho 49, Lisboa","Mercado Central, Av. 24 de Julho 49, Lisboa, junto ao Mercado da Ribeira, com quartos compactos, cozinha compartilhada e recepção 24h."
+pt,"Salvador, Brasil",Hotel Praia do Farol,Farol da Barra,"Av. Oceânica 250, Salvador","Praia do Farol, Av. Oceânica 250, Salvador, perto do Farol da Barra, com vista do mar, café simples e toalhas de praia."
+tr,"İstanbul, Türkiye",Kule Han Hotel,Galata Kulesi,"Büyük Hendek Cd. 14, Beyoğlu, İstanbul","Han, Büyük Hendek Cd. 14, Beyoğlu, İstanbul, Galata Kulesi’ne yakın; hızlı Wi‑Fi, ücretsiz çay-kahve ve erken kahvaltı seçeneği."
+tr,"İstanbul, Türkiye",Grand Plaza Taksim,Taksim Meydanı,"Sıraselviler Cd. 9, İstanbul","Grand Plaza, Sıraselviler Cd. 9, İstanbul, Taksim Meydanı çevresinde; ses yalıtımı, 24 saat resepsiyon ve havaalanı transferi."
+tr,"Antalya, Türkiye",Sahil Yolu Oteli,Konyaaltı Plajı,"Sahil Yolu Sk. 3, Antalya","Sahil Yolu, Sahil Yolu Sk. 3, Antalya, Konyaaltı Plajı’na yürüyüş mesafesinde; havuz, çocuk menüsü ve plaj havlusu."
+ar,دبي، الإمارات,فندق النخيل دبي,برج خليفة,شارع الشيخ محمد بن راشد، دبي,يقع النخيل في شارع الشيخ محمد بن راشد، دبي قرب برج خليفة، مع غرف بإطلالة، إفطار بوفيه، وخدمة نقل للمطار عند الطلب.
+ar,الرياض، السعودية,غراند بلازا المطار,مطار الملك خالد الدولي,طريق المطار 200، الرياض,غراند بلازا، طريق المطار 200، الرياض، قريب من مطار الملك خالد الدولي، مع تسجيل دخول سريع، غرف هادئة، ومقهى يعمل 24 ساعة.
+ar,القاهرة، مصر,فندق ساحة التحرير,ميدان التحرير,شارع القصر العيني 5، القاهرة,ساحة التحرير، شارع القصر العيني 5، القاهرة، بجوار ميدان التحرير، مع مكتب استقبال، خدمة غرف، وتراس يطل على وسط المدينة.
+ar,جدة، السعودية,فندق الكورنيش,كورنيش جدة,طريق الكورنيش 10، جدة,الكورنيش، طريق الكورنيش 10، جدة، بالقرب من كورنيش جدة، مع غرف عائلية، مواقف مجانية، وإطلالة على البحر.
+ja,"東京, 日本",浅草グランドプラザ,浅草寺,東京都台東区浅草2-1-5,グランドプラザは東京都台東区浅草2-1-5、浅草寺の近く。大浴場、荷物預かり、朝食ビュッフェあり。
+ja,"東京, 日本",銀座セントラルホテル,銀座駅,東京都中央区銀座4-2-1,Ginza Centralは東京都中央区銀座4-2-1、銀座駅から徒歩圏内。高速Wi‑Fi、静かな客室、コーヒーサービス。
+ja,"京都, 日本",桜ホテル京都,清水寺,京都府京都市東山区清水1-10,桜は京都府京都市東山区清水1-10、清水寺へ行きやすい立地。和朝食、レンタサイクル、セルフランドリー。
+ja,"大阪, 日本",グランドホテル大阪,大阪城,大阪府大阪市中央区大手前1-1,グランドは大阪府大阪市中央区大手前1-1、大阪城の近く。ジム、ルームサービス、レイトチェックアウト対応。
+zh,上海，中国,上海外滩大酒店,外滩,上海市黄浦区中山东一路88号,外滩酒店位于上海市黄浦区中山东一路88号，靠近外滩；江景房、健身房、行李寄存和自助早餐。
+zh,北京，中国,大广场酒店北京,天安门广场,北京市东城区长安街1号,大广场在北京市东城区长安街1号，距离天安门广场不远；24小时前台、安静客房、会议室和机场接送预约。
+zh,成都，中国,人民路酒店,宽窄巷子,成都市人民路99号,人民路酒店在成都市人民路99号，去宽窄巷子很方便；提供洗衣服务、家庭房、免费茶水和叫车服务。
+zh,广州，中国,人民公园酒店,人民公园,广州市越秀区公园路8号,公园酒店位于广州市越秀区公园路8号，靠近人民公园；早餐、停车位、遮光窗帘和夜间安保。

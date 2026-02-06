@@ -1,0 +1,1010 @@
+[
+  {
+    "data": {
+      "text": "Bienvenido a Hostal Brisa Marina, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Camino Skyline 301, Crestfield. A pocos minutos de Museo de Arte del Río y de cafeterías locales.",
+      "doc_id": "ex_004"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13,
+              "end": 32,
+              "text": "Hostal Brisa Marina",
+              "labels": [
+                "HOTEL_NAME"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 58,
+              "end": 70,
+              "text": "Wi‑Fi rápido",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 73,
+              "end": 86,
+              "text": "recepción 24h",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 106,
+              "end": 136,
+              "text": "Camino Skyline 301, Crestfield",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 157,
+              "end": 178,
+              "text": "Museo de Arte del Río",
+              "labels": [
+                "LANDMARK_POI"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Bienvenido a Hostal Brisa Marina, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Avenida Kingsway 204, Edgemont. A pocos minutos de Catedral de Puente de Piedra y de cafeterías locales.",
+      "doc_id": "ex_005"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13,
+              "end": 32,
+              "text": "Hostal Brisa Marina",
+              "labels": [
+                "HOTEL_NAME"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 58,
+              "end": 70,
+              "text": "Wi‑Fi rápido",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 73,
+              "end": 86,
+              "text": "recepción 24h",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 106,
+              "end": 136,
+              "text": "Avenida Kingsway 204, Edgemont",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 157,
+              "end": 185,
+              "text": "Catedral de Puente de Piedra",
+              "labels": [
+                "LANDMARK_POI"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Bienvenido a Estancia Arroyo Sauce, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Calle Sauce 77, Northbridge. A pocos minutos de Parque Hoja Verde y de cafeterías locales.",
+      "doc_id": "ex_010"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13,
+              "end": 34,
+              "text": "Estancia Arroyo Sauce",
+              "labels": [
+                "HOTEL_NAME"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 60,
+              "end": 72,
+              "text": "Wi‑Fi rápido",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 75,
+              "end": 88,
+              "text": "recepción 24h",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 108,
+              "end": 135,
+              "text": "Calle Sauce 77, Northbridge",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 156,
+              "end": 173,
+              "text": "Parque Hoja Verde",
+              "labels": [
+                "LANDMARK_POI"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Bienvenue à Suites Cèdre et Pierre, un séjour confortable avec Wi‑Fi rapide et réception 24h/24. Adresse : 77 allée des Saules, Northbridge. À quelques minutes de Musée d’Art de la Rivière et de cafés locaux.",
+      "doc_id": "ex_014"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12,
+              "end": 34,
+              "text": "Suites Cèdre et Pierre",
+              "labels": [
+                "HOTEL_NAME"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 63,
+              "end": 75,
+              "text": "Wi‑Fi rapide",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 79,
+              "end": 95,
+              "text": "réception 24h/24",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 107,
+              "end": 139,
+              "text": "77 allée des Saules, Northbridge",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 163,
+              "end": 188,
+              "text": "Musée d’Art de la Rivière",
+              "labels": [
+                "LANDMARK_POI"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Seabreeze Manor, a cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 8-10 Wrenford Road, Westbridge. Just minutes from Greenleaf Park and great local cafés.",
+      "doc_id": "ex_016"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 26,
+              "text": "Seabreeze Manor",
+              "labels": [
+                "HOTEL_NAME"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 45,
+              "end": 55,
+              "text": "fast Wi‑Fi",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 62,
+              "end": 73,
+              "text": "quiet lobby",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 86,
+              "end": 116,
+              "text": "8-10 Wrenford Road, Westbridge",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 136,
+              "end": 150,
+              "text": "Greenleaf Park",
+              "labels": [
+                "LANDMARK_POI"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Skyline Court Hotel, a cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 88 Oceanview Blvd, Harbor City. Just minutes from City Aquarium and great local cafés.",
+      "doc_id": "ex_022"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 30,
+              "text": "Skyline Court Hotel",
+              "labels": [
+                "HOTEL_NAME"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 49,
+              "end": 59,
+              "text": "fast Wi‑Fi",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 66,
+              "end": 77,
+              "text": "quiet lobby",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 90,
+              "end": 120,
+              "text": "88 Oceanview Blvd, Harbor City",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 140,
+              "end": 153,
+              "text": "City Aquarium",
+              "labels": [
+                "LANDMARK_POI"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Bienvenue à Le Grand Marigold, un séjour confortable avec Wi‑Fi rapide et réception 24h/24. Adresse : 42 route du Parc Feuille-Verte, Hillgate. À quelques minutes de Halles du Vieux Quartier et de cafés locaux.",
+      "doc_id": "ex_025"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12,
+              "end": 29,
+              "text": "Le Grand Marigold",
+              "labels": [
+                "HOTEL_NAME"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 58,
+              "end": 70,
+              "text": "Wi‑Fi rapide",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 74,
+              "end": 90,
+              "text": "réception 24h/24",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 102,
+              "end": 142,
+              "text": "42 route du Parc Feuille-Verte, Hillgate",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 166,
+              "end": 190,
+              "text": "Halles du Vieux Quartier",
+              "labels": [
+                "LANDMARK_POI"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Riverview Boutique Inn, a cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 77 Willow Lane, Northbridge. Just minutes from Old Town Market Hall and great local cafés.",
+      "doc_id": "ex_031"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 33,
+              "text": "Riverview Boutique Inn",
+              "labels": [
+                "HOTEL_NAME"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 52,
+              "end": 62,
+              "text": "fast Wi‑Fi",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 69,
+              "end": 80,
+              "text": "quiet lobby",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 93,
+              "end": 120,
+              "text": "77 Willow Lane, Northbridge",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 140,
+              "end": 160,
+              "text": "Old Town Market Hall",
+              "labels": [
+                "LANDMARK_POI"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Bienvenido a Posada Mirador del Río, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Av. Parque Hoja Verde 42, Hillgate. A pocos minutos de Estación Central y de cafeterías locales.",
+      "doc_id": "ex_036"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13,
+              "end": 35,
+              "text": "Posada Mirador del Río",
+              "labels": [
+                "HOTEL_NAME"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 61,
+              "end": 73,
+              "text": "Wi‑Fi rápido",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 76,
+              "end": 89,
+              "text": "recepción 24h",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 109,
+              "end": 143,
+              "text": "Av. Parque Hoja Verde 42, Hillgate",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 164,
+              "end": 180,
+              "text": "Estación Central",
+              "labels": [
+                "LANDMARK_POI"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Maple Harbor Hotel, a cozy stay with fast Wi‑Fi and a quiet lobby. Find us at 12 Harbor Street, Seaview. Just minutes from Old Town Market Hall and great local cafés.",
+      "doc_id": "ex_037"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 29,
+              "text": "Maple Harbor Hotel",
+              "labels": [
+                "HOTEL_NAME"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 48,
+              "end": 58,
+              "text": "fast Wi‑Fi",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 65,
+              "end": 76,
+              "text": "quiet lobby",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 89,
+              "end": 114,
+              "text": "12 Harbor Street, Seaview",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 134,
+              "end": 154,
+              "text": "Old Town Market Hall",
+              "labels": [
+                "LANDMARK_POI"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Bienvenue à Plaza Pont-du-Nord, un séjour confortable avec Wi‑Fi rapide et réception 24h/24. Adresse : 204 avenue Kingsway, Edgemont. À quelques minutes de Jardin botanique royal et de cafés locaux.",
+      "doc_id": "ex_044"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12,
+              "end": 30,
+              "text": "Plaza Pont-du-Nord",
+              "labels": [
+                "HOTEL_NAME"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 59,
+              "end": 71,
+              "text": "Wi‑Fi rapide",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 75,
+              "end": 91,
+              "text": "réception 24h/24",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 103,
+              "end": 132,
+              "text": "204 avenue Kingsway, Edgemont",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 156,
+              "end": 178,
+              "text": "Jardin botanique royal",
+              "labels": [
+                "LANDMARK_POI"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Bienvenido a Posada Mirador del Río, una estancia cómoda con Wi‑Fi rápido y recepción 24h. Nos encuentras en Calle Puente de Piedra 10, Casco Antiguo. A pocos minutos de Jardín Botánico Real y de cafeterías locales.",
+      "doc_id": "ex_047"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13,
+              "end": 35,
+              "text": "Posada Mirador del Río",
+              "labels": [
+                "HOTEL_NAME"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 61,
+              "end": 73,
+              "text": "Wi‑Fi rápido",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 76,
+              "end": 89,
+              "text": "recepción 24h",
+              "labels": [
+                "AMENITY"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 109,
+              "end": 149,
+              "text": "Calle Puente de Piedra 10, Casco Antiguo",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 170,
+              "end": 190,
+              "text": "Jardín Botánico Real",
+              "labels": [
+                "LANDMARK_POI"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
