@@ -1,0 +1,2928 @@
+[
+  {
+    "data": {
+      "text": "Welcome to Krasnapolsky Amsterdam, a comfortable stay with canal-view rooms, a winter-garden breakfast, and 24/7 reception. Find us at Damrak 96, 1012 LP Amsterdam, Amsterdam. Just minutes from Dam Square and popular local cafés, shops, and evening spots. Enjoy a quiet lobby with tea and coffee available most afternoons. If you’re arriving early, luggage storage is available until your room is ready. Transport tips: buses run frequently nearby, and rideshare pickup is easiest at the main entrance.",
+      "doc_id": "0"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 33,
+              "text": "Krasnapolsky Amsterdam",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 135,
+              "end": 163,
+              "text": "Damrak 96, 1012 LP Amsterdam",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 194,
+              "end": 204,
+              "text": "Dam Square",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Rembrandt Square Hotel, a comfortable stay with bike rentals, blackout curtains, and a small cocktail bar. Find us at Amstelstraat 20, 1017 DA Amsterdam, Amsterdam. Just minutes from Rembrandtplein and popular local cafés, shops, and evening spots. Enjoy a quiet lobby with tea and coffee available most afternoons. If you’re arriving early, luggage storage is available until your room is ready. Transport tips: the nearest metro is a short walk away, and taxis can be requested at reception.",
+      "doc_id": "1"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 33,
+              "text": "Rembrandt Square Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 129,
+              "end": 174,
+              "text": "Amstelstraat 20, 1017 DA Amsterdam, Amsterdam",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 194,
+              "end": 208,
+              "text": "Rembrandtplein",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Grand Plaza, a comfortable stay with soundproofed rooms, a rooftop lounge, and a compact gym. Find us at 350 W 42nd St, New York, NY 10036, New York. Just minutes from Times Square and popular local cafés, shops, and evening spots. Rooms include blackout curtains and a small desk for work or planning day trips. Transport tips: the nearest metro is a short walk away, and taxis can be requested at reception.",
+      "doc_id": "2"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 22,
+              "text": "Grand Plaza",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 116,
+              "end": 149,
+              "text": "350 W 42nd St, New York, NY 10036",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 179,
+              "end": 191,
+              "text": "Times Square",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Central, a comfortable stay with luggage storage, early breakfast bags, and self check-in kiosks. Find us at 12 Station Rd, Edinburgh EH1 1BB, Edinburgh. Just minutes from Edinburgh Waverley Station and popular local cafés, shops, and evening spots. Families can request an extra bed and a crib, subject to availability. A small lounge makes a good spot to unwind after sightseeing. Transport tips: the front desk can arrange a taxi, and the closest train station is walkable.",
+      "doc_id": "3"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 18,
+              "text": "Central",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 120,
+              "end": 152,
+              "text": "12 Station Rd, Edinburgh EH1 1BB",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 135,
+              "end": 144,
+              "text": "Edinburgh",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 183,
+              "end": 209,
+              "text": "Edinburgh Waverley Station",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Harbour Bridge Plaza Hotel, a comfortable stay with harbour-facing suites, a rooftop pool, and tour bookings. Find us at 98 Cumberland St, The Rocks NSW 2000, Sydney. Just minutes from Sydney Harbour Bridge and popular local cafés, shops, and evening spots. Families can request an extra bed and a crib, subject to availability. Enjoy a quiet lobby with tea and coffee available most afternoons. Transport tips: buses run frequently nearby, and rideshare pickup is easiest at the main entrance.",
+      "doc_id": "4"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 37,
+              "text": "Harbour Bridge Plaza Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 132,
+              "end": 176,
+              "text": "98 Cumberland St, The Rocks NSW 2000, Sydney",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 196,
+              "end": 217,
+              "text": "Sydney Harbour Bridge",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Rivoli Louvre, a comfortable stay with concierge museum reservations, quiet rooms, and café-to-go. Find us at 99 Rue de Rivoli, 75001 Paris, Paris. Just minutes from Louvre Museum and popular local cafés, shops, and evening spots. A small lounge makes a good spot to unwind after sightseeing. Families can request an extra bed and a crib, subject to availability. Transport tips: ask the desk to book an airport shuttle, or use the nearest tram stop around the corner.",
+      "doc_id": "5"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 24,
+              "text": "Rivoli Louvre",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 121,
+              "end": 150,
+              "text": "99 Rue de Rivoli, 75001 Paris",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 177,
+              "end": 190,
+              "text": "Louvre Museum",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Plaza, a comfortable stay with park-view rooms, bike storage, and a sauna corner. Find us at Parkring 12, 1010 Vienna, Vienna. Just minutes from Stadtpark and popular local cafés, shops, and evening spots. If you’re arriving early, luggage storage is available until your room is ready. A small lounge makes a good spot to unwind after sightseeing. Breakfast is served daily, with lighter options available for early departures. Transport tips: the nearest metro is a short walk away, and taxis can be requested at reception.",
+      "doc_id": "6"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 16,
+              "text": "Plaza",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 104,
+              "end": 128,
+              "text": "Parkring 12, 1010 Vienna",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 156,
+              "end": 165,
+              "text": "Stadtpark",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Grand Plaza Termini, a comfortable stay with fast check-in, baggage hold, and late breakfast. Find us at Via Marsala 25, 00185 Rome, Rome. Just minutes from Roma Termini and popular local cafés, shops, and evening spots. If you’re arriving early, luggage storage is available until your room is ready. A small lounge makes a good spot to unwind after sightseeing. Transport tips: the front desk can arrange a taxi, and the closest train station is walkable.",
+      "doc_id": "7"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 30,
+              "text": "Grand Plaza Termini",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 116,
+              "end": 142,
+              "text": "Via Marsala 25, 00185 Rome",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 168,
+              "end": 180,
+              "text": "Roma Termini",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Ginza Central Hotel, a comfortable stay with fast Wi‑Fi, quiet floors, and complimentary drip coffee. Find us at 4-2-1 Ginza, Chuo City, Tokyo 104-0061, Tokyo. Just minutes from Ginza Station and popular local cafés, shops, and evening spots. If you’re arriving early, luggage storage is available until your room is ready. A small lounge makes a good spot to unwind after sightseeing. Families can request an extra bed and a crib, subject to availability. Transport tips: look for the closest subway entrance nearby, or request a pre-booked transfer.",
+      "doc_id": "8"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 30,
+              "text": "Ginza Central Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 124,
+              "end": 162,
+              "text": "4-2-1 Ginza, Chuo City, Tokyo 104-0061",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 148,
+              "end": 153,
+              "text": "Tokyo",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 189,
+              "end": 202,
+              "text": "Ginza Station",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Shinjuku City Hotel, a comfortable stay with coin laundry, self check-in, and compact single rooms. Find us at 1-1-1 Nishi-Shinjuku, Tokyo 160-0023, Tokyo. Just minutes from Shinjuku Station and popular local cafés, shops, and evening spots. Breakfast is served daily, with lighter options available for early departures. A small lounge makes a good spot to unwind after sightseeing. Transport tips: the nearest metro is a short walk away, and taxis can be requested at reception.",
+      "doc_id": "9"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 30,
+              "text": "Shinjuku City Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 122,
+              "end": 158,
+              "text": "1-1-1 Nishi-Shinjuku, Tokyo 160-0023",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 185,
+              "end": 201,
+              "text": "Shinjuku Station",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Bund Riverside, a comfortable stay with river-view rooms, buffet breakfast, and a small gym. Find us at 88 Zhongshan East 1st Rd, Huangpu, Shanghai, Shanghai. Just minutes from The Bund and popular local cafés, shops, and evening spots. If you’re arriving early, luggage storage is available until your room is ready. Transport tips: the nearest metro is a short walk away, and taxis can be requested at reception.",
+      "doc_id": "10"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 25,
+              "text": "Bund Riverside",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 115,
+              "end": 168,
+              "text": "88 Zhongshan East 1st Rd, Huangpu, Shanghai, Shanghai",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 188,
+              "end": 196,
+              "text": "The Bund",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Grand Plaza Taksim, a comfortable stay with sound-insulated rooms, airport transfer booking, and a lobby café. Find us at Sıraselviler Cd. 9, Beyoğlu 34433 Istanbul, Istanbul. Just minutes from Taksim Square and popular local cafés, shops, and evening spots. If you’re arriving early, luggage storage is available until your room is ready. Breakfast is served daily, with lighter options available for early departures. Transport tips: ask the desk to book an airport shuttle, or use the nearest tram stop around the corner.",
+      "doc_id": "11"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 29,
+              "text": "Grand Plaza Taksim",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 133,
+              "end": 185,
+              "text": "Sıraselviler Cd. 9, Beyoğlu 34433 Istanbul, Istanbul",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 205,
+              "end": 218,
+              "text": "Taksim Square",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Corniche Bay Hotel, a comfortable stay with sea-view family rooms, free parking, and late-night room service. Find us at Corniche Rd 10, Jeddah 23411, Jeddah. Just minutes from Jeddah Corniche and popular local cafés, shops, and evening spots. Breakfast is served daily, with lighter options available for early departures. A small lounge makes a good spot to unwind after sightseeing. Transport tips: the front desk can arrange a taxi, and the closest train station is walkable.",
+      "doc_id": "12"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 29,
+              "text": "Corniche Bay Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 132,
+              "end": 168,
+              "text": "Corniche Rd 10, Jeddah 23411, Jeddah",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 188,
+              "end": 203,
+              "text": "Jeddah Corniche",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Oldtown Gate Inn, a comfortable stay with complimentary tea, walking-tour signup, and a small lift. Find us at Karlova 2, 110 00 Prague, Prague. Just minutes from Old Town Square and popular local cafés, shops, and evening spots. If you’re arriving early, luggage storage is available until your room is ready. Transport tips: the front desk can arrange a taxi, and the closest train station is walkable.",
+      "doc_id": "13"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 27,
+              "text": "Oldtown Gate Inn",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 122,
+              "end": 146,
+              "text": "Karlova 2, 110 00 Prague",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 174,
+              "end": 189,
+              "text": "Old Town Square",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Catedral Plaza Hotel, a comfortable stay with a terrace café, bike hire, and afternoon coffee service. Find us at Plaça Nova 1, 08002 Barcelona, Barcelona. Just minutes from Barcelona Cathedral and popular local cafés, shops, and evening spots. A small lounge makes a good spot to unwind after sightseeing. Breakfast is served daily, with lighter options available for early departures. Transport tips: the nearest metro is a short walk away, and taxis can be requested at reception.",
+      "doc_id": "14"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 31,
+              "text": "Catedral Plaza Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 125,
+              "end": 165,
+              "text": "Plaça Nova 1, 08002 Barcelona, Barcelona",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 185,
+              "end": 204,
+              "text": "Barcelona Cathedral",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Grand Plaza, a comfortable stay with coworking tables, express check-in, and a compact gym. Find us at Av. Paulista 1578, Bela Vista, São Paulo 01310-200, São Paulo. Just minutes from MASP and popular local cafés, shops, and evening spots. A small lounge makes a good spot to unwind after sightseeing. Transport tips: the nearest metro is a short walk away, and taxis can be requested at reception.",
+      "doc_id": "15"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 22,
+              "text": "Grand Plaza",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 114,
+              "end": 175,
+              "text": "Av. Paulista 1578, Bela Vista, São Paulo 01310-200, São Paulo",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 195,
+              "end": 199,
+              "text": "MASP",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Mercado Central Hotel, a comfortable stay with shared kitchen, quiet rooms, and 24/7 reception. Find us at Av. 24 de Julho 49, 1200-479 Lisbon, Lisbon. Just minutes from Mercado da Ribeira and popular local cafés, shops, and evening spots. Enjoy a quiet lobby with tea and coffee available most afternoons. Breakfast is served daily, with lighter options available for early departures. Transport tips: ask the desk to book an airport shuttle, or use the nearest tram stop around the corner.",
+      "doc_id": "16"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 32,
+              "text": "Mercado Central Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 118,
+              "end": 161,
+              "text": "Av. 24 de Julho 49, 1200-479 Lisbon, Lisbon",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 181,
+              "end": 199,
+              "text": "Mercado da Ribeira",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Ponte Vecchio, a comfortable stay with Arno-view balconies, taxi service, and in-room kettles. Find us at Borgo San Jacopo 8, 50125 Florence, Florence. Just minutes from Ponte Vecchio and popular local cafés, shops, and evening spots. A small lounge makes a good spot to unwind after sightseeing. If you’re arriving early, luggage storage is available until your room is ready. Transport tips: if arriving late, take a taxi to the address and check in at the main lobby desk.",
+      "doc_id": "17"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 24,
+              "text": "Ponte Vecchio",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 117,
+              "end": 151,
+              "text": "Borgo San Jacopo 8, 50125 Florence",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 143,
+              "end": 151,
+              "text": "Florence",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 181,
+              "end": 194,
+              "text": "Ponte Vecchio",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to San Marco Boutique Hotel, a comfortable stay with concierge help, air-conditioned rooms, and late breakfast. Find us at Calle Larga XXII Marzo 2398, 30124 Venice, Venice. Just minutes from Piazza San Marco and popular local cafés, shops, and evening spots. If you’re arriving early, luggage storage is available until your room is ready. Transport tips: buses run frequently nearby, and rideshare pickup is easiest at the main entrance.",
+      "doc_id": "18"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 35,
+              "text": "San Marco Boutique Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 131,
+              "end": 180,
+              "text": "Calle Larga XXII Marzo 2398, 30124 Venice, Venice",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 200,
+              "end": 216,
+              "text": "Piazza San Marco",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Central, a comfortable stay with keycard elevators, luggage lockers, and a small bar. Find us at Alexanderstraße 1, 10178 Berlin, Berlin. Just minutes from Alexanderplatz and popular local cafés, shops, and evening spots. If you’re arriving early, luggage storage is available until your room is ready. Rooms include blackout curtains and a small desk for work or planning day trips. Transport tips: look for the closest subway entrance nearby, or request a pre-booked transfer.",
+      "doc_id": "19"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 18,
+              "text": "Central",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 108,
+              "end": 139,
+              "text": "Alexanderstraße 1, 10178 Berlin",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 167,
+              "end": 181,
+              "text": "Alexanderplatz",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Brandenburger Tor Hotel Berlin, a comfortable stay with breakfast buffet, blackout curtains, and ticket assistance. Find us at Straße des 17. Juni 5, 10623 Berlin, Berlin. Just minutes from Brandenburg Gate and popular local cafés, shops, and evening spots. Rooms include blackout curtains and a small desk for work or planning day trips. If you’re arriving early, luggage storage is available until your room is ready. Transport tips: look for the closest subway entrance nearby, or request a pre-booked transfer.",
+      "doc_id": "20"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 41,
+              "text": "Brandenburger Tor Hotel Berlin",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 138,
+              "end": 173,
+              "text": "Straße des 17. Juni 5, 10623 Berlin",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 201,
+              "end": 217,
+              "text": "Brandenburg Gate",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Grand Plaza, a comfortable stay with breakfast buffet, keycard access, and a small gym. Find us at Götgatan 19, 118 46 Stockholm, Stockholm. Just minutes from Slussen and popular local cafés, shops, and evening spots. Families can request an extra bed and a crib, subject to availability. If you’re arriving early, luggage storage is available until your room is ready. Transport tips: the nearest metro is a short walk away, and taxis can be requested at reception.",
+      "doc_id": "21"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 22,
+              "text": "Grand Plaza",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 110,
+              "end": 139,
+              "text": "Götgatan 19, 118 46 Stockholm",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 170,
+              "end": 177,
+              "text": "Slussen",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Gamla Stan Hotel, a comfortable stay with quiet courtyard rooms, evening tea, and boat tour booking help. Find us at Storkyrkobrinken 4, 111 28 Stockholm, Stockholm. Just minutes from Royal Palace and popular local cafés, shops, and evening spots. Rooms include blackout curtains and a small desk for work or planning day trips. Transport tips: the front desk can arrange a taxi, and the closest train station is walkable.",
+      "doc_id": "22"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 27,
+              "text": "Gamla Stan Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 128,
+              "end": 164,
+              "text": "Storkyrkobrinken 4, 111 28 Stockholm",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 155,
+              "end": 164,
+              "text": "Stockholm",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 195,
+              "end": 207,
+              "text": "Royal Palace",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Drottninggatan Hotel, a comfortable stay with fast Wi‑Fi, early breakfast, and baggage storage. Find us at Drottninggatan 3, 411 14 Gothenburg, Gothenburg. Just minutes from Avenyn and popular local cafés, shops, and evening spots. Enjoy a quiet lobby with tea and coffee available most afternoons. Transport tips: buses run frequently nearby, and rideshare pickup is easiest at the main entrance.",
+      "doc_id": "23"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 31,
+              "text": "Drottninggatan Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 118,
+              "end": 153,
+              "text": "Drottninggatan 3, 411 14 Gothenburg",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 185,
+              "end": 191,
+              "text": "Avenyn",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Hotel, a comfortable stay with 24/7 reception, breakfast service, and courtyard-facing rooms. Find us at Rynek Główny 6, 31-042 Kraków, Kraków. Just minutes from Main Market Square and popular local cafés, shops, and evening spots. If you’re arriving early, luggage storage is available until your room is ready. Breakfast is served daily, with lighter options available for early departures. Transport tips: the front desk can arrange a taxi, and the closest train station is walkable.",
+      "doc_id": "24"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 16,
+              "text": "Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 116,
+              "end": 145,
+              "text": "Rynek Główny 6, 31-042 Kraków",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 173,
+              "end": 191,
+              "text": "Main Market Square",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Grand Plaza Centrum, a comfortable stay with meeting rooms, airport transfer booking, and fast Wi‑Fi. Find us at ul. Marszałkowska 1, 00-624 Warsaw, Warsaw. Just minutes from Palace of Culture and Science and popular local cafés, shops, and evening spots. Enjoy a quiet lobby with tea and coffee available most afternoons. If you’re arriving early, luggage storage is available until your room is ready. Transport tips: look for the closest subway entrance nearby, or request a pre-booked transfer.",
+      "doc_id": "25"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 30,
+              "text": "Grand Plaza Centrum",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 124,
+              "end": 158,
+              "text": "ul. Marszałkowska 1, 00-624 Warsaw",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 186,
+              "end": 215,
+              "text": "Palace of Culture and Science",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Hotel, a comfortable stay with bike rentals, late checkout, and a minibar. Find us at ul. Mostowa 8, 50-001 Wrocław, Wrocław. Just minutes from Grunwaldzki Bridge and popular local cafés, shops, and evening spots. A small lounge makes a good spot to unwind after sightseeing. Transport tips: buses run frequently nearby, and rideshare pickup is easiest at the main entrance.",
+      "doc_id": "26"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 16,
+              "text": "Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 97,
+              "end": 126,
+              "text": "ul. Mostowa 8, 50-001 Wrocław",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 119,
+              "end": 126,
+              "text": "Wrocław",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 155,
+              "end": 173,
+              "text": "Grunwaldzki Bridge",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Connaught Plaza Hotel, a comfortable stay with early breakfast, reliable Wi‑Fi, and 24/7 reception. Find us at Janpath Rd 22, New Delhi 110001, New Delhi. Just minutes from India Gate and popular local cafés, shops, and evening spots. Enjoy a quiet lobby with tea and coffee available most afternoons. Transport tips: the front desk can arrange a taxi, and the closest train station is walkable.",
+      "doc_id": "27"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 32,
+              "text": "Connaught Plaza Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 122,
+              "end": 164,
+              "text": "Janpath Rd 22, New Delhi 110001, New Delhi",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 184,
+              "end": 194,
+              "text": "India Gate",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to MG, a comfortable stay with laundry service, desk workspace, and gym passes. Find us at MG Road 101, Bengaluru 560001, Bengaluru. Just minutes from Cubbon Park and popular local cafés, shops, and evening spots. A small lounge makes a good spot to unwind after sightseeing. Transport tips: the front desk can arrange a taxi, and the closest train station is walkable.",
+      "doc_id": "28"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 13,
+              "text": "MG",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 99,
+              "end": 128,
+              "text": "MG Road 101, Bengaluru 560001",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 159,
+              "end": 170,
+              "text": "Cubbon Park",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Haeundae Grand Plaza, a comfortable stay with ocean-view rooms, sauna access, and buffet breakfast. Find us at 55 Haeundae-ro, Haeundae-gu, Busan 48094, Busan. Just minutes from Haeundae Beach and popular local cafés, shops, and evening spots. A small lounge makes a good spot to unwind after sightseeing. Transport tips: if arriving late, take a taxi to the address and check in at the main lobby desk.",
+      "doc_id": "29"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 31,
+              "text": "Haeundae Grand Plaza",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 122,
+              "end": 169,
+              "text": "55 Haeundae-ro, Haeundae-gu, Busan 48094, Busan",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 189,
+              "end": 203,
+              "text": "Haeundae Beach",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Hangang Hotel, a comfortable stay with quiet rooms, laundry service, and limousine bus reservations. Find us at 1-1 Yeouido-dong, Yeongdeungpo-gu, Seoul 07325, Seoul. Just minutes from Hangang Park and popular local cafés, shops, and evening spots. Enjoy a quiet lobby with tea and coffee available most afternoons. Breakfast is served daily, with lighter options available for early departures. Transport tips: buses run frequently nearby, and rideshare pickup is easiest at the main entrance.",
+      "doc_id": "30"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 24,
+              "text": "Hangang Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 123,
+              "end": 176,
+              "text": "1-1 Yeouido-dong, Yeongdeungpo-gu, Seoul 07325, Seoul",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 196,
+              "end": 208,
+              "text": "Hangang Park",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Tahrir Square Hotel, a comfortable stay with city-view terrace, room service, and tour arrangements. Find us at Qasr El Aini St 5, Cairo 11511, Cairo. Just minutes from Tahrir Square and popular local cafés, shops, and evening spots. Enjoy a quiet lobby with tea and coffee available most afternoons. A small lounge makes a good spot to unwind after sightseeing. Transport tips: buses run frequently nearby, and rideshare pickup is easiest at the main entrance.",
+      "doc_id": "31"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 30,
+              "text": "Tahrir Square Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 123,
+              "end": 147,
+              "text": "Qasr El Aini St 5, Cairo",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 148,
+              "end": 160,
+              "text": "11511, Cairo",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 180,
+              "end": 193,
+              "text": "Tahrir Square",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Khalid Airport Grand Plaza, a comfortable stay with fast check-in, quiet rooms, and a 24-hour café. Find us at Airport Rd 200, Riyadh 13413, Riyadh. Just minutes from King Khalid International Airport and popular local cafés, shops, and evening spots. Breakfast is served daily, with lighter options available for early departures. Enjoy a quiet lobby with tea and coffee available most afternoons. Transport tips: if arriving late, take a taxi to the address and check in at the main lobby desk.",
+      "doc_id": "32"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 37,
+              "text": "Khalid Airport Grand Plaza",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 122,
+              "end": 158,
+              "text": "Airport Rd 200, Riyadh 13413, Riyadh",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 178,
+              "end": 211,
+              "text": "King Khalid International Airport",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Alameda Central Hotel, a comfortable stay with continental breakfast, tour desk help, and spacious rooms. Find us at Av. Hidalgo 20, Centro, 06000 Mexico City, Mexico City. Just minutes from Alameda Central and popular local cafés, shops, and evening spots. Families can request an extra bed and a crib, subject to availability. Transport tips: the nearest metro is a short walk away, and taxis can be requested at reception.",
+      "doc_id": "33"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 32,
+              "text": "Alameda Central Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 128,
+              "end": 182,
+              "text": "Av. Hidalgo 20, Centro, 06000 Mexico City, Mexico City",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 202,
+              "end": 217,
+              "text": "Alameda Central",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Plaza, a comfortable stay with blackout curtains, 24/7 reception, and a small gym. Find us at Av. Corrientes 900, C1043AAO Buenos Aires, Buenos Aires. Just minutes from Obelisk and popular local cafés, shops, and evening spots. Breakfast is served daily, with lighter options available for early departures. Transport tips: if arriving late, take a taxi to the address and check in at the main lobby desk.",
+      "doc_id": "34"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 16,
+              "text": "Plaza",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 105,
+              "end": 146,
+              "text": "Av. Corrientes 900, C1043AAO Buenos Aires",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 134,
+              "end": 146,
+              "text": "Buenos Aires",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 180,
+              "end": 187,
+              "text": "Obelisk",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Jet d’Eau, a comfortable stay with lake-view rooms, umbrella lending, and shuttle service. Find us at Quai du Mont‑Blanc 5, 1201 Geneva, Geneva. Just minutes from Jet d’Eau and popular local cafés, shops, and evening spots. If you’re arriving early, luggage storage is available until your room is ready. Transport tips: the nearest metro is a short walk away, and taxis can be requested at reception.",
+      "doc_id": "35"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 20,
+              "text": "Jet d’Eau",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 113,
+              "end": 146,
+              "text": "Quai du Mont‑Blanc 5, 1201 Geneva",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 140,
+              "end": 146,
+              "text": "Geneva",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 174,
+              "end": 183,
+              "text": "Jet d’Eau",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Cathedral Square, a comfortable stay with kitchenette suites, paid parking, and late checkout. Find us at 8 Cathedral Sq, Christchurch 8011, Christchurch. Just minutes from Cathedral Square and popular local cafés, shops, and evening spots. A small lounge makes a good spot to unwind after sightseeing. Transport tips: the front desk can arrange a taxi, and the closest train station is walkable.",
+      "doc_id": "36"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 27,
+              "text": "Cathedral Square",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 117,
+              "end": 164,
+              "text": "8 Cathedral Sq, Christchurch 8011, Christchurch",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Union Square Grand Plaza, a comfortable stay with on-site café, meeting pods, and concierge. Find us at 333 Post St, San Francisco, CA 94108, San Francisco. Just minutes from Union Square and popular local cafés, shops, and evening spots. Breakfast is served daily, with lighter options available for early departures. Rooms include blackout curtains and a small desk for work or planning day trips. If you’re arriving early, luggage storage is available until your room is ready. Transport tips: the front desk can arrange a taxi, and the closest train station is walkable.",
+      "doc_id": "37"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 35,
+              "text": "Union Square Grand Plaza",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 115,
+              "end": 151,
+              "text": "333 Post St, San Francisco, CA 94108",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 186,
+              "end": 198,
+              "text": "Union Square",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Grand Plaza, a comfortable stay with scheduled shuttle, soundproof windows, and a 24/7 snack bar. Find us at 1 Airport Blvd, Miami, FL 33126, Miami. Just minutes from Miami International Airport and popular local cafés, shops, and evening spots. Rooms include blackout curtains and a small desk for work or planning day trips. A small lounge makes a good spot to unwind after sightseeing. Transport tips: buses run frequently nearby, and rideshare pickup is easiest at the main entrance.",
+      "doc_id": "38"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 22,
+              "text": "Grand Plaza",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 120,
+              "end": 158,
+              "text": "1 Airport Blvd, Miami, FL 33126, Miami",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 178,
+              "end": 205,
+              "text": "Miami International Airport",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Plaza, a comfortable stay with pool access, harbour views, and concierge dining bookings. Find us at 6-8 Harbour Rd, Wan Chai, Hong Kong, Hong Kong. Just minutes from Victoria Harbour and popular local cafés, shops, and evening spots. Enjoy a quiet lobby with tea and coffee available most afternoons. Rooms include blackout curtains and a small desk for work or planning day trips. Families can request an extra bed and a crib, subject to availability. Transport tips: the front desk can arrange a taxi, and the closest train station is walkable.",
+      "doc_id": "39"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 16,
+              "text": "Plaza",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 112,
+              "end": 147,
+              "text": "6-8 Harbour Rd, Wan Chai, Hong Kong",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 178,
+              "end": 194,
+              "text": "Victoria Harbour",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Millennium Bridge Hotel, a comfortable stay with river-view rooms, a small gym, and theatre ticket assistance. Find us at 2 River Walk, London SE1 9PP, London. Just minutes from Millennium Bridge and popular local cafés, shops, and evening spots. If you’re arriving early, luggage storage is available until your room is ready. Transport tips: ask the desk to book an airport shuttle, or use the nearest tram stop around the corner.",
+      "doc_id": "40"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 34,
+              "text": "Millennium Bridge Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 133,
+              "end": 161,
+              "text": "2 River Walk, London SE1 9PP",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 189,
+              "end": 206,
+              "text": "Millennium Bridge",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Gran, a comfortable stay with double-glazed windows, 24/7 desk, and luggage storage. Find us at Gran Vía 31, 28013 Madrid, Madrid. Just minutes from Gran Vía and popular local cafés, shops, and evening spots. If you’re arriving early, luggage storage is available until your room is ready. Enjoy a quiet lobby with tea and coffee available most afternoons. Transport tips: buses run frequently nearby, and rideshare pickup is easiest at the main entrance.",
+      "doc_id": "41"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 15,
+              "text": "Gran",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 107,
+              "end": 132,
+              "text": "Gran Vía 31, 28013 Madrid",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 126,
+              "end": 132,
+              "text": "Madrid",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 160,
+              "end": 168,
+              "text": "Gran Vía",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Park, a comfortable stay with family suites, airport transfer, and a kids’ play corner. Find us at 12 Park Ln, Dubai 00000, Dubai. Just minutes from Burj Khalifa and popular local cafés, shops, and evening spots. If you’re arriving early, luggage storage is available until your room is ready. Families can request an extra bed and a crib, subject to availability. Transport tips: buses run frequently nearby, and rideshare pickup is easiest at the main entrance.",
+      "doc_id": "42"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 15,
+              "text": "Park",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 110,
+              "end": 140,
+              "text": "12 Park Ln, Dubai 00000, Dubai",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 160,
+              "end": 172,
+              "text": "Burj Khalifa",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Piazza Navona, a comfortable stay with quiet rooms, breakfast delivery, and tour booking. Find us at 21 Via di Tor Millina, 00186 Rome, Rome. Just minutes from Piazza Navona and popular local cafés, shops, and evening spots. Enjoy a quiet lobby with tea and coffee available most afternoons. Rooms include blackout curtains and a small desk for work or planning day trips. Transport tips: look for the closest subway entrance nearby, or request a pre-booked transfer.",
+      "doc_id": "43"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 24,
+              "text": "Piazza Navona",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 112,
+              "end": 151,
+              "text": "21 Via di Tor Millina, 00186 Rome, Rome",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 171,
+              "end": 184,
+              "text": "Piazza Navona",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Central Harbor Hotel, a comfortable stay with harbor views, espresso bar, and late checkout. Find us at 15 Quay St, Auckland 1010, Auckland. Just minutes from Viaduct Harbour and popular local cafés, shops, and evening spots. A small lounge makes a good spot to unwind after sightseeing. If you’re arriving early, luggage storage is available until your room is ready. Transport tips: look for the closest subway entrance nearby, or request a pre-booked transfer.",
+      "doc_id": "44"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 31,
+              "text": "Central Harbor Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 115,
+              "end": 150,
+              "text": "15 Quay St, Auckland 1010, Auckland",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 170,
+              "end": 185,
+              "text": "Viaduct Harbour",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Grand Plaza Riverside, a comfortable stay with spa access, breakfast buffet, and river-view rooms. Find us at 1 Duna Korzó, 1051 Budapest, Budapest. Just minutes from Danube Promenade and popular local cafés, shops, and evening spots. Breakfast is served daily, with lighter options available for early departures. Transport tips: look for the closest subway entrance nearby, or request a pre-booked transfer.",
+      "doc_id": "45"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 32,
+              "text": "Grand Plaza Riverside",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 58,
+              "end": 68,
+              "text": "spa access",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 121,
+              "end": 158,
+              "text": "1 Duna Korzó, 1051 Budapest, Budapest",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 178,
+              "end": 194,
+              "text": "Danube Promenade",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Maple Harbor Hotel, a comfortable stay with fast Wi‑Fi, a quiet lobby, and a small fitness room. Find us at 12 Harbour Street, Halifax NS B3H 1Y3, Halifax. Just minutes from Old Town Market Hall and popular local cafés, shops, and evening spots. A small lounge makes a good spot to unwind after sightseeing. Transport tips: if arriving late, take a taxi to the address and check in at the main lobby desk.",
+      "doc_id": "46"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 29,
+              "text": "Maple Harbor Hotel",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 119,
+              "end": 165,
+              "text": "12 Harbour Street, Halifax NS B3H 1Y3, Halifax",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 185,
+              "end": 205,
+              "text": "Old Town Market Hall",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Cornerstone Inn, a comfortable stay with cozy rooms, local pastries, and late check-in. Find us at 3 Royal Mile, Edinburgh EH1 1BB, Edinburgh. Just minutes from Royal Mile and popular local cafés, shops, and evening spots. Rooms include blackout curtains and a small desk for work or planning day trips. A small lounge makes a good spot to unwind after sightseeing. Transport tips: buses run frequently nearby, and rideshare pickup is easiest at the main entrance.",
+      "doc_id": "47"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 26,
+              "text": "Cornerstone Inn",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 110,
+              "end": 152,
+              "text": "3 Royal Mile, Edinburgh EH1 1BB, Edinburgh",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 172,
+              "end": 182,
+              "text": "Royal Mile",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Grand Plaza, a comfortable stay with fast Wi‑Fi, a lobby coffee bar, and a small fitness room. Find us at 200 Market St, Philadelphia, PA 19106, Philadelphia. Just minutes from Independence Hall and popular local cafés, shops, and evening spots. Breakfast is served daily, with lighter options available for early departures. Transport tips: look for the closest subway entrance nearby, or request a pre-booked transfer.",
+      "doc_id": "48"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 22,
+              "text": "Grand Plaza",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 117,
+              "end": 168,
+              "text": "200 Market St, Philadelphia, PA 19106, Philadelphia",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 188,
+              "end": 205,
+              "text": "Independence Hall",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Welcome to Rembrandtplein Suites, a comfortable stay with kitchenette studios, quiet rooms, and bike rental support. Find us at 1 Amstelstraat, 1017 DA Amsterdam, Amsterdam. Just minutes from Rembrandtplein and popular local cafés, shops, and evening spots. Rooms include blackout curtains and a small desk for work or planning day trips. Transport tips: buses run frequently nearby, and rideshare pickup is easiest at the main entrance.",
+      "doc_id": "49"
+    },
+    "predictions": [
+      {
+        "model_version": "llm_preannot_v1",
+        "score": 1.0,
+        "result": [
+          {
+            "id": "r1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 32,
+              "text": "Rembrandtplein Suites",
+              "labels": [
+                "HOTEL"
+              ]
+            }
+          },
+          {
+            "id": "r2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 128,
+              "end": 161,
+              "text": "1 Amstelstraat, 1017 DA Amsterdam",
+              "labels": [
+                "ADDRESS"
+              ]
+            }
+          },
+          {
+            "id": "r3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 192,
+              "end": 206,
+              "text": "Rembrandtplein",
+              "labels": [
+                "LANDMARK"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

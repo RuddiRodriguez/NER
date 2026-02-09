@@ -1,14 +1,28 @@
 import json
 import os
+import sys
 import pandas as pd
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 from openai import OpenAI
 from dotenv import load_dotenv
 
 import textwrap
 from typing import Literal, TypedDict
+from tqdm import tqdm
 
 load_dotenv(override=True)
+
+repo_root = os.path.abspath(os.path.join(os.getcwd(), "."))
+sys.path.append(os.path.join(repo_root, "src"))
+
+
+
+data_path = os.path.join(repo_root, "data", "hotel_toy_dataset_50_en_welcome_style_noisy.csv")
+data = pd.read_csv(data_path)
+data['id'] = data.index.astype(str)  # add an 'id' column for tracking
+data.dropna(subset=["hotel_name", "address", "landmark", "language"], how="any", inplace=True)
+
+data = data.reset_index(drop=True)
 
 
 api_key = os.getenv("OPENAI_API_KEY")
@@ -32,106 +46,6 @@ if api_key.strip() != api_key:
 print("API key found and looks good so far!")
 
 
-
-
-
-
-EntityType = Literal["HOTEL_NAME", "ADDRESS", "LANDMARK_POI"]
-
-class Entity(TypedDict):
-    start: int
-    end: int
-    type: EntityType
-    text: str
-    # Optional but useful for debugging / provenance
-    candidate_id: str
-
-class ExtractEntitiesArgs(TypedDict):
-    entities: List[Entity]
-
-class ExtractorPrompt:
-   
-   
-   
-    SYSTEM_MESSAGE = textwrap.dedent(
-        """
-        You are an information extraction engine that performs Named Entity Recognition (NER)
-        on {language} hotel descriptions/reviews.
-
-        Entity types:
-        - HOTEL_NAME: the property name / brand name used to identify the hotel. Exclude generic "the hotel", "this property".
-        - ADDRESS: a findability string (street/canal/square + number, postal code, city/region/country when used as address data).
-        - LANDMARK_POI: named attractions, stations, airports, neighborhoods, venues, parks, squares, etc. Exclude generic "the station".
-
-        Boundary rules:
-        - Extract the smallest exact substring that uniquely identifies the entity.
-        - No overlapping entities (prefer the longest specific span if conflicts exist).
-        - Character offsets: start inclusive, end exclusive (Python slicing).
-        - Every entity.text MUST equal original_text[start:end].
-
-        Gazetteer hints may be provided. Use them ONLY as hints:
-        - Prefer them when they appear verbatim in the text.
-        - Do NOT output a hinted candidate unless it appears verbatim in the text.
-        - You may still extract entities not in the hints.
-
-        Output MUST be a function call only, matching the JSON schema.
-
-    """
-    ).strip()
-   
-    USER_MESSAGE = textwrap.dedent(
-        """
-    # Text to process
-    {text}
-    
-            
-        
-        """).strip()
-   
-    TOOLS: List[Dict[str, Any]] = [
-    {
-        "type": "function",
-        "name": "extract_hotel_entities",
-        "description": "Return named entities (HOTEL_NAME, ADDRESS, LANDMARK_POI) with character offsets.",
-        # Structured Outputs guarantees schema adherence when strict=true. :contentReference[oaicite:3]{index=3}
-        "strict": True,
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "entities": {
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                            "start": {"type": "integer"},
-                            "end": {"type": "integer"},
-                            "type": {"type": "string", "enum": ["HOTEL_NAME", "ADDRESS", "LANDMARK_POI"]},
-                            "text": {"type": "string"},
-                            "candidate_id": {"type": "string"},
-                        },
-                        "required": ["start", "end", "type", "text", "candidate_id"],
-                        "additionalProperties": False,
-                    },
-                }
-            },
-            "required": ["entities"],
-            "additionalProperties": False,  # required for Structured Outputs tool schemas :contentReference[oaicite:4]{index=4}
-        },
-    }
-]
-
-    TOOL_CHOICE = {"type": "function", "name": "extract_hotel_entities"}
-
-
-
-
-
-
-
-
-
-
-
 GPT_MODEL = "gpt-5.2-2025-12-11"
 openai_client = OpenAI(
                 api_key = api_key,
@@ -139,11 +53,6 @@ openai_client = OpenAI(
             )
 
 
-
-import textwrap
-from typing import Any, Dict, List, Literal, TypedDict
-
-
 EntityType = Literal["HOTEL_NAME", "ADDRESS", "LANDMARK_POI"]
 
 class Entity(TypedDict):
@@ -167,11 +76,10 @@ class ExtractorPrompt:
         on {language} hotel descriptions/reviews.
 
         Entity types:
-        - HOTEL_NAME: the property name / brand name used to identify the hotel. Exclude generic "the hotel", "this property".
+        - HOTEL: the property name / brand name used to identify the hotel. Exclude generic "the hotel", "this property".
         - ADDRESS: a findability string (street/canal/square + number, postal code, city/region/country when used as address data).
-        - LANDMARK_POI: named attractions, stations, airports, neighborhoods, venues, parks, squares, etc. Exclude generic "the station".
-        - AMENITY: amenities/services/facilities and operational info mentioned in the description, e.g. "24h reception", "free Wi‑Fi",
-          "breakfast included", "shower", "laundry", "parking", "pool", "gym", "check-in 24 hours", etc.
+        - LANDMARK: named attractions, stations, airports, neighborhoods, venues, parks, squares, etc. Exclude generic "the station".
+        
 
         Boundary rules:
         - Extract the smallest exact substring that uniquely identifies the entity.
@@ -200,7 +108,7 @@ class ExtractorPrompt:
             "type": "function",
             "function": {
                 "name": "extract_hotel_entities",
-                "description": "Return named entities (HOTEL_NAME, ADDRESS, LANDMARK_POI, AMENITY) with character offsets.",
+                "description": "Return named entities (HOTEL, ADDRESS, LANDMARK) with character offsets.",
                 "parameters": {
                     "type": "object",
                     "properties": {
@@ -213,7 +121,7 @@ class ExtractorPrompt:
                                     "end": {"type": "integer"},
                                     "type": {
                                         "type": "string",
-                                        "enum": ["HOTEL_NAME", "ADDRESS", "LANDMARK_POI", "AMENITY"],
+                                        "enum": ["HOTEL", "ADDRESS", "LANDMARK"],
                                     },
                                     "text": {"type": "string"},
                                     "candidate_id": {"type": "string"},
@@ -270,9 +178,7 @@ def _call_llm(**params):
         response = openai_client.chat.completions.create(**params)
         return response
     
-data = pd.read_csv("/Users/ruddigarcia/Projects/ner/data/toy_hotel_ner_50.csv")
-data.dropna(subset=["hotel_name","address","landmark","language"], how="any", inplace=True)
-data = data.reset_index(drop=True)
+
 
 def _validate_offsets(text: str, entities: List[Dict[str, Any]]) -> None:
     for ent in entities:
@@ -284,7 +190,6 @@ def _validate_offsets(text: str, entities: List[Dict[str, Any]]) -> None:
                 f"Offset mismatch: expected text[{s}:{e}]='{text[s:e]}' got '{ent['text']}'"
             )
             
-from typing import Any, Dict, List
 
 def repair_offsets(text: str, entities: List[Dict[str, Any]], window: int = 40) -> List[Dict[str, Any]]:
     """
@@ -329,24 +234,23 @@ def repair_offsets(text: str, entities: List[Dict[str, Any]], window: int = 40) 
 
     return fixed
 
-import json
-from typing import Dict, Iterable, Iterator
 
-def read_jsonl(path: str) -> Iterator[Dict]:
+
+def read_jsonl(path: str) :
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
             if line:
                 yield json.loads(line)
 
-def write_jsonl(path: str, rows: Iterable[Dict]) -> None:
+def write_jsonl(path: str, rows) -> None:
     with open(path, "w", encoding="utf-8") as f:
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
         
 
 rows_out = []
-for description , language, id in zip(data["description"], data["language"], data["id"]):
+for description, language, id in tqdm(zip(data["description"], data["language"], data["id"]), total=len(data), desc="Extracting entities"):
     messages = build_messages(
         text=description,
         language=language
@@ -357,85 +261,71 @@ for description , language, id in zip(data["description"], data["language"], dat
     tool_call = output_message.tool_calls[0]
     parsed = json.loads(tool_call.function.arguments)
     ents = parsed.get("entities", [])
-    ents = repair_offsets(description, ents)          # <-- add this
-    _validate_offsets(description, ents)    
-    
+    ents = repair_offsets(description, ents)
+    _validate_offsets(description, ents)
     
     rows_out.append({
         "doc_id": id,
         "description": description,
         "entities_pre": ents,
-        
     })
-path_jsonl_out = "/Users/ruddigarcia/Projects/ner/data/toy_hotel_ner_50_extracted.jsonl"
+path_jsonl_out = os.path.join(repo_root, "outputs", "toy_hotel_ner_50_extracted_noisy.jsonl")
 write_jsonl(path_jsonl_out, rows_out)
 
 
 
+# def to_labelstudio_tasks(rows) -> List[Dict[str, Any]]:
+#     """
+#     Produces Label Studio import tasks with preannotations.
 
-import json
-from pathlib import Path
-from typing import Dict, Iterator, List, Any
+#     Assumes labeling config:
+#       <Labels name="label" toName="text"> ... </Labels>
+#       <Text name="text" value="$text"/>
+#     """
+#     tasks = []
+#     for r in rows:
+#         text = r["description"]
+#         ents = r.get("entities_pre", [])
 
-def read_jsonl(path: str) -> Iterator[Dict[str, Any]]:
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if line:
-                yield json.loads(line)
+#         # Label Studio "result" objects
+#         result = []
+#         for i, e in enumerate(sorted(ents, key=lambda x: (x["start"], x["end"])), start=1):
+#             result.append({
+#                 "id": f"r{i}",                 # region id (string)
+#                 "from_name": "label",          # must match <Labels name="label">
+#                 "to_name": "text",             # must match <Text name="text">
+#                 "type": "labels",
+#                 "value": {
+#                     "start": int(e["start"]),
+#                     "end": int(e["end"]),
+#                     "text": e.get("text", text[int(e["start"]):int(e["end"])]),
+#                     "labels": [e["type"]],
+#                 },
+#             })
 
-def to_labelstudio_tasks(rows: Iterator[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """
-    Produces Label Studio import tasks with preannotations.
+#         task = {
+#             "data": {
+#                 "text": text,
+#                 "doc_id": r.get("doc_id"),
+#             },
+#             # Optional pre-annotations:
+#             "predictions": [{
+#                 "model_version": "llm_preannot_v1",
+#                 "score": 1.0,
+#                 "result": result
+#             }] if result else []
+#         }
+#         tasks.append(task)
 
-    Assumes labeling config:
-      <Labels name="label" toName="text"> ... </Labels>
-      <Text name="text" value="$text"/>
-    """
-    tasks = []
-    for r in rows:
-        text = r["description"]
-        ents = r.get("entities_pre", [])
+#     return tasks
 
-        # Label Studio "result" objects
-        result = []
-        for i, e in enumerate(sorted(ents, key=lambda x: (x["start"], x["end"])), start=1):
-            result.append({
-                "id": f"r{i}",                 # region id (string)
-                "from_name": "label",          # must match <Labels name="label">
-                "to_name": "text",             # must match <Text name="text">
-                "type": "labels",
-                "value": {
-                    "start": int(e["start"]),
-                    "end": int(e["end"]),
-                    "text": e.get("text", text[int(e["start"]):int(e["end"])]),
-                    "labels": [e["type"]],
-                },
-            })
+# # ---- usage ----
+# in_jsonl = "/Users/ruddigarcia/Projects/ner/data/toy_hotel_ner_50_extracted.jsonl"
+# out_json = Path("/Users/ruddigarcia/Projects/ner/data/labelstudio_tasks.json")
 
-        task = {
-            "data": {
-                "text": text,
-                "doc_id": r.get("doc_id"),
-            },
-            # Optional pre-annotations:
-            "predictions": [{
-                "model_version": "llm_preannot_v1",
-                "score": 1.0,
-                "result": result
-            }] if result else []
-        }
-        tasks.append(task)
-
-    return tasks
-
-# ---- usage ----
-in_jsonl = "/Users/ruddigarcia/Projects/ner/data/toy_hotel_ner_50_extracted.jsonl"
-out_json = Path("/Users/ruddigarcia/Projects/ner/data/labelstudio_tasks.json")
-
-tasks = to_labelstudio_tasks(read_jsonl(in_jsonl))
-out_json.write_text(json.dumps(tasks, ensure_ascii=False, indent=2), encoding="utf-8")
-print(f"Wrote: {out_json}")
+# tasks = to_labelstudio_tasks(read_jsonl(in_jsonl))
+# out_json.write_text(json.dumps(tasks, ensure_ascii=False, indent=2), encoding="utf-8")
+# print(f"Wrote: {out_json}")
 
 
 
